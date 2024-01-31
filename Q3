@@ -1,0 +1,12 @@
+encrypted = input()
+encrypted_letters = []
+for letter in encrypted:
+  encrypted_letters.append(letter)
+penu_letter = encrypted_letters.pop(0)
+last_letter = encrypted_letters.pop(0)
+last_letters = [penu_letter, last_letter]
+decrypted_letters = encrypted_letters + last_letters
+decrypted = ''
+for i in decrypted_letters:
+  decrypted += i
+print(decrypted)
