@@ -1,0 +1,11 @@
+entry_1 = input()
+entry_2 = input()
+entry_3 = input()
+if entry_1 != entry_2 and entry_1 != entry_3:
+  print("BOTH MISMATCH")
+elif entry_1 != entry_2 and entry_1 == entry_3:
+  print("ENTRY 2 MISMATCH")
+elif entry_1 == entry_2 and entry_1 != entry_3:
+  print("ENTRY 3 MISMATCH")
+else:
+  print("OK")
