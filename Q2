@@ -1,0 +1,5 @@
+money_owned = int(input())
+ride_cost = int(input())
+num_rides = money_owned // ride_cost
+
+print(num_rides)
